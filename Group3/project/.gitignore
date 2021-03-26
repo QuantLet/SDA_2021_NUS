@@ -1,0 +1,6 @@
+downloaded_data/data/*
+*.DS_Store
+*.log
+*.ipynb_checkpoints/
+industries/industry_index_names.csv
+sectors/index_names.csv

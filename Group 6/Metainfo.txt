@@ -1,8 +1,0 @@
-Here is the homework folder for Group 6.
-A0215662H           Changjie Jin
-A0209205N           Ng Zhi Wei Aaron
-A0129685N           You Pengxin
-A0140527M          Chio Qi Jun
-A0133910R           Zhang Yuxi
-
-We also uploaded it through pull request.
