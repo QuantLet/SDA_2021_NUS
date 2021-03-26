@@ -1,0 +1,9 @@
+Published in: 'SDA_2021_NUS'
+
+Description: 'High Frequency Prediction Using Temporal Fusion Transformer (TFT), Xgboost and MLP'
+
+Keywords: 'High Frequency, TFT, Xgboost, MLP'
+
+Author: 'FE5225 NUS 20/21 Semester 2 Group10'
+
+Submitted:  '26.03.2021'
