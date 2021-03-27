@@ -1,0 +1,19 @@
+Name of QuantLet:   CRIX Data Clustering
+
+Published in:       ''
+
+Description:        'Clustering using CRIX closing price'
+
+Keywords:
+ - CRIX
+ - clustering
+ - k-means
+ - hierarchical
+ - dendogram
+ - sklearn
+
+Author:             Sowmya Srikanth
+
+Submitted:          Fri, March 26 2021 by Sowmya Srikanth
+
+Output:
