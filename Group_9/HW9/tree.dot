@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="worst area <= 830.7\ngini = 0.4606\nsamples = 233\nvalue = [137, 244]", fillcolor="#399de570"] ;
+1 [label="mean concave points <= 0.0508\ngini = 0.1613\nsamples = 156\nvalue = [23, 237]", fillcolor="#399de5e6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="area error <= 47.035\ngini = 0.0352\nsamples = 135\nvalue = [4, 219]", fillcolor="#399de5fa"] ;
+1 -> 2 ;
+3 [label="gini = 0.0181\nsamples = 133\nvalue = [2, 217]", fillcolor="#399de5fd"] ;
+2 -> 3 ;
+4 [label="gini = 0.5\nsamples = 2\nvalue = [2, 2]", fillcolor="#e5813900"] ;
+2 -> 4 ;
+5 [label="worst symmetry <= 0.2758\ngini = 0.4996\nsamples = 21\nvalue = [19, 18]", fillcolor="#e581390d"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 7\nvalue = [0, 13]", fillcolor="#399de5ff"] ;
+5 -> 6 ;
+7 [label="gini = 0.3299\nsamples = 14\nvalue = [19, 5]", fillcolor="#e58139bc"] ;
+5 -> 7 ;
+8 [label="worst texture <= 20.875\ngini = 0.109\nsamples = 77\nvalue = [114, 7]", fillcolor="#e58139ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="fractal dimension error <= 0.0035\ngini = 0.4628\nsamples = 7\nvalue = [4, 7]", fillcolor="#399de56d"] ;
+8 -> 9 ;
+10 [label="gini = 0.0\nsamples = 4\nvalue = [0, 7]", fillcolor="#399de5ff"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 3\nvalue = [4, 0]", fillcolor="#e58139ff"] ;
+9 -> 11 ;
+12 [label="gini = 0.0\nsamples = 70\nvalue = [110, 0]", fillcolor="#e58139ff"] ;
+8 -> 12 ;
+}
