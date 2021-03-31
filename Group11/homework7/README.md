@@ -1,1 +1,0 @@
-Homework for lecture7
