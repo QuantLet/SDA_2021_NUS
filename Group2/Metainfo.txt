@@ -1,0 +1,13 @@
+Name of Quantlet: 'Group2'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'This is Group2'
+
+Keywords: 'Markov, HMM, CNN, MNIST'
+
+Author: 'Group2'
+
+Submitted:  '01. Apr 2021, Sun Rongsheng'
+
+Datafile: 'All the data used in homework'
