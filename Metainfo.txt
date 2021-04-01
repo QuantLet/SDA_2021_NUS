@@ -1,19 +1,13 @@
-Name of Quantlet: 'MANDATORY! Has to be the same as the Quantlet file, without file type ending, e.g. R,py,...'
+Name of Quantlet: 'Group2'
 
-Published in: 'MANDATORY!'
+Published in: 'SDA_2021_NUS'
 
-Description: 'MANDATORY!'
+Description: 'This is Group2'
 
-Keywords: 'MANDATORY!'
+Keywords: 'Markov, HMM, CNN, MNIST'
 
-Author: 'MANDATORY'
+Author: 'Group2'
 
-See also: 'optional: listing related Quantlets or Github code'
+Submitted:  '01. Apr 2021, Sun Rongsheng'
 
-Submitted:  'optional: e.g. 01. Jan 2019, John Doe'
-
-Datafile: 'optional: for your data sets - delete if not used'
-
-Input: 'optional'
-
-Output:  'optional'
+Datafile: 'All the data used in homework'
