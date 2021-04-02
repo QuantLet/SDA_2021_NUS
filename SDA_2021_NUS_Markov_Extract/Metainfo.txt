@@ -1,0 +1,9 @@
+Name of Quantlet: 'SDA_2021_NUS_Markov_Extract'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Generate the extract using Markov'
+
+Keywords: 'NUS, FE5225, Markov, HMM'
+
+Author: 'Sun Rongsheng'
