@@ -1,3 +1,0 @@
-- This is the presentation slides of project for Group 1.
-- The topic of our project is Credit Card Default Prediction.
-- Contributor & Presentor: Ma Haochun
