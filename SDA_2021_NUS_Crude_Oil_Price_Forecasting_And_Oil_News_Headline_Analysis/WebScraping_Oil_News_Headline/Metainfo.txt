@@ -1,1 +1,9 @@
-Metainfo.txt
+Name of Quantlet: 'WebScraping_oil_News_headline'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Project_Group11 file'
+
+Keywords: 'NUS, FE5225, oil, news, headline, webscraping'
+
+Author: 'Peng Wenhui'
