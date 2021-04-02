@@ -1,4 +1,4 @@
-Name of Quantlet: 'WebScraping_oil_News_headline'
+Name of Quantlet: 'WebScraping_Oil_News_Headline_and_Clustering'
 
 Published in: 'SDA_2021_NUS'
 
