@@ -6,4 +6,4 @@ Description: 'Project_Group11 file'
 
 Keywords: 'NUS, FE5225,crude oil, price, LSTM'
 
-Author: 'Peng Wenhui'
+Author: 'Peng Wenhui, Gui Yilin'
