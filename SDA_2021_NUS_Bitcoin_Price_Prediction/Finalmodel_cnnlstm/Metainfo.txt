@@ -6,4 +6,4 @@ Description: 'Project_Group9 file'
 
 Keywords: 'NUS, FE5225, bitcoin price, CNN, LSTM'
 
-Author: 'Liu Xiaojuan'
+Author: 'Group 9'
