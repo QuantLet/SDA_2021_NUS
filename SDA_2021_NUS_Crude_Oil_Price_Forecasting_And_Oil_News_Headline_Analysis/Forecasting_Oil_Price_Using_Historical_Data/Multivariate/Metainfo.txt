@@ -1,4 +1,4 @@
-Name of Quantlet: 'Time_Series_Forecasting_on_Crude_Oil_Price'
+Name of Quantlet: 'Multivariate_Oil_Price_Prediction'
 
 Published in: 'SDA_2021_NUS'
 
