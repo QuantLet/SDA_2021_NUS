@@ -2,7 +2,7 @@ Name of Quantlet: 'SDA_2021_NUS_Sentiment analysis of Chinese financial news'
 
 Published in: 'SDA_2021_NUS/SDA_2021_NUS_Sentiment analysis of Chinese financial news'
 
-Description: 'Retraub the snownlp model to calculate the sentiment index by Sina financial news'
+Description: 'Retrain the snownlp model to calculate the sentiment index by Sina financial news'
 
 Keywords: 'wordcloud, sentiment, snownlp, chinese financial news text'
 
