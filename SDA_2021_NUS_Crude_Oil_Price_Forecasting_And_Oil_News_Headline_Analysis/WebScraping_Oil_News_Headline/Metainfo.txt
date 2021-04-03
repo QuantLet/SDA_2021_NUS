@@ -6,4 +6,4 @@ Description: 'Project_Group11 file'
 
 Keywords: 'NUS, FE5225, oil, news, headline, webscraping'
 
-Author: 'Peng Wenhui'
+Author: 'Peng Wenhui, Gui Yilin'
