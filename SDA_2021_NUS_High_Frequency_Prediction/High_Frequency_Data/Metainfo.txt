@@ -1,0 +1,13 @@
+Name of Quantlet: 'High_Frequency_Data'
+
+Published in: 'SDA_2021_NUS/SDA_2021_NUS_High_Frequency_Prediction'
+
+Description: 'Using TFT, Xgboost and MLP to do high frequency prediction of stock index futures'
+
+Keywords: 'High frequency, CSI 300' 
+
+Author: 'Cheng Tuoyuan, Wang Duyue, Wang Wenbo, Zheng Zhongyi'
+
+Submitted:  '07.April 2021'
+
+Datafile: 'CSI 300 index futures 500ms data'
