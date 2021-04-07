@@ -1,0 +1,2 @@
+1. To run the script to download data:
+python StockCorr_Data_Downloader.py

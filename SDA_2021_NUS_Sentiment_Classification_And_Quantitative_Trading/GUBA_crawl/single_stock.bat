@@ -1,0 +1,1 @@
+scrapy crawl single_stock

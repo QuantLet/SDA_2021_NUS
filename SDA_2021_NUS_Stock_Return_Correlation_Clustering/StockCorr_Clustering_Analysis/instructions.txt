@@ -1,0 +1,10 @@
+1. download data from: https://drive.google.com/file/d/1Uy0VmrkbKUAskGKAAQo45F8unrphAF14/view?usp=sharing
+and unzip the file, put the data files under 'downloaded_data/data/' folder
+
+2. please install packages in requirements.txt:
+pip install -r requirements.txt
+
+3. run python code:
+python StockCorr_Clustering_Analysis.py
+
+Alternatively, you can run in StockCorr_Clustering_Analysis.ipynb

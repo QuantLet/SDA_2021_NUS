@@ -1,0 +1,15 @@
+Name of Quantlet: 'StockCorr_Clustering_Analysis'
+
+Published in: 'SDA_2021_NUS/SDA_2021_NUS_Stock_Return_Correlation_Clustering'
+
+Description: 'Uses hierarchical clustering method to analyse the correlation of stock returns along time'
+
+Keywords: 'stock, correlation, hierarchical clustering, temporal, sectors, industries'
+
+Author: 'Li Yilin, Mei Yuxin, Sun Qingwei, Xie Chuda, Zhang Yingxin'
+
+See also: 'StockCorr_Data_Downloader, StockCorr_Asset_Allocation'
+
+Submitted:  '01. Apr 2021'
+
+Datafile: 'NASDAQ and NYSE stock mega/large/mid/small cap stock daily prices'
