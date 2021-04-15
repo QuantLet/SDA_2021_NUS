@@ -1,0 +1,285 @@
+<<<<<<< HEAD
+Stock_return vs sentiment
+independent :sentiment 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.004
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.173
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.280
+Time:                        23:34:19   Log-Likelihood:                 756.33
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1501.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            -0.0379      0.036     -1.055      0.293      -0.109       0.033
+sentiment_MA5     0.0707      0.065      1.083      0.280      -0.058       0.199
+==============================================================================
+Omnibus:                       46.235   Durbin-Watson:                   1.914
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              166.761
+Skew:                          -0.665   Prob(JB):                     6.14e-37
+Kurtosis:                       6.621   Cond. No.                         95.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_MAS 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.006
+Model:                            GLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.644
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.201
+Time:                        23:34:19   Log-Likelihood:                 756.57
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1502.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -0.0386      0.031     -1.249      0.213      -0.100       0.022
+sentiment_yesterday     0.0720      0.056      1.282      0.201      -0.039       0.183
+==============================================================================
+Omnibus:                       43.074   Durbin-Watson:                   1.920
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              149.512
+Skew:                          -0.624   Prob(JB):                     3.42e-33
+Kurtosis:                       6.433   Cond. No.                         82.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.004
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.193
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.276
+Time:                        23:34:19   Log-Likelihood:                 756.34
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1501.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -0.0393      0.037     -1.065      0.288      -0.112       0.033
+sentiment_vol_yesterday     0.2485      0.227      1.092      0.276      -0.199       0.696
+==============================================================================
+Omnibus:                       49.312   Durbin-Watson:                   1.900
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              179.641
+Skew:                          -0.713   Prob(JB):                     9.81e-40
+Kurtosis:                       6.741   Cond. No.                         262.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_vol_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       1.000
+Model:                            GLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 6.017e+32
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):               0.00
+Time:                        23:34:19   Log-Likelihood:                 10156.
+No. Observations:                 269   AIC:                        -2.031e+04
+Df Residuals:                     267   BIC:                        -2.030e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const        -6.034e-20   5.96e-19     -0.101      0.919   -1.23e-18    1.11e-18
+Stock_return     1.0000   4.08e-17   2.45e+16      0.000       1.000       1.000
+==============================================================================
+Omnibus:                       64.562   Durbin-Watson:                   1.861
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              275.496
+Skew:                          -0.909   Prob(JB):                     1.50e-60
+Kurtosis:                       7.612   Cond. No.                         68.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_var 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.005
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.287
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.258
+Time:                        23:34:19   Log-Likelihood:                 756.39
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1502.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0018      0.001      1.587      0.114      -0.000       0.004
+stock_volatility    -3.7802      3.333     -1.134      0.258     -10.342       2.781
+==============================================================================
+Omnibus:                       38.261   Durbin-Watson:                   1.920
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              131.216
+Skew:                          -0.543   Prob(JB):                     3.21e-29
+Kurtosis:                       6.245   Cond. No.                     3.75e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.75e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+=======
+Stock_return vs sentiment
+independent :sentiment 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.004
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.173
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.280
+Time:                        23:34:19   Log-Likelihood:                 756.33
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1501.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            -0.0379      0.036     -1.055      0.293      -0.109       0.033
+sentiment_MA5     0.0707      0.065      1.083      0.280      -0.058       0.199
+==============================================================================
+Omnibus:                       46.235   Durbin-Watson:                   1.914
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              166.761
+Skew:                          -0.665   Prob(JB):                     6.14e-37
+Kurtosis:                       6.621   Cond. No.                         95.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_MAS 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.006
+Model:                            GLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     1.644
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.201
+Time:                        23:34:19   Log-Likelihood:                 756.57
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1502.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                  -0.0386      0.031     -1.249      0.213      -0.100       0.022
+sentiment_yesterday     0.0720      0.056      1.282      0.201      -0.039       0.183
+==============================================================================
+Omnibus:                       43.074   Durbin-Watson:                   1.920
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              149.512
+Skew:                          -0.624   Prob(JB):                     3.42e-33
+Kurtosis:                       6.433   Cond. No.                         82.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.004
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.193
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.276
+Time:                        23:34:19   Log-Likelihood:                 756.34
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1501.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                      -0.0393      0.037     -1.065      0.288      -0.112       0.033
+sentiment_vol_yesterday     0.2485      0.227      1.092      0.276      -0.199       0.696
+==============================================================================
+Omnibus:                       49.312   Durbin-Watson:                   1.900
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              179.641
+Skew:                          -0.713   Prob(JB):                     9.81e-40
+Kurtosis:                       6.741   Cond. No.                         262.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_vol_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       1.000
+Model:                            GLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 6.017e+32
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):               0.00
+Time:                        23:34:19   Log-Likelihood:                 10156.
+No. Observations:                 269   AIC:                        -2.031e+04
+Df Residuals:                     267   BIC:                        -2.030e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const        -6.034e-20   5.96e-19     -0.101      0.919   -1.23e-18    1.11e-18
+Stock_return     1.0000   4.08e-17   2.45e+16      0.000       1.000       1.000
+==============================================================================
+Omnibus:                       64.562   Durbin-Watson:                   1.861
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              275.496
+Skew:                          -0.909   Prob(JB):                     1.50e-60
+Kurtosis:                       7.612   Cond. No.                         68.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_var 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:           Stock_return   R-squared:                       0.005
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.287
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.258
+Time:                        23:34:19   Log-Likelihood:                 756.39
+No. Observations:                 269   AIC:                            -1509.
+Df Residuals:                     267   BIC:                            -1502.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                0.0018      0.001      1.587      0.114      -0.000       0.004
+stock_volatility    -3.7802      3.333     -1.134      0.258     -10.342       2.781
+==============================================================================
+Omnibus:                       38.261   Durbin-Watson:                   1.920
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              131.216
+Skew:                          -0.543   Prob(JB):                     3.21e-29
+Kurtosis:                       6.245   Cond. No.                     3.75e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.75e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+>>>>>>> 96f81bd45206ad2ae58a10cfbffe7446125640a2
