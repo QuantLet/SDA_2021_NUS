@@ -1,0 +1,9 @@
+Name of Quantlet: 'WebScraping_Oil_News_Headline_and_Clustering'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Project_Group11 file'
+
+Keywords: 'NUS, FE5225, oil, news, headline, webscraping'
+
+Author: 'Peng Wenhui, Gui Yilin'

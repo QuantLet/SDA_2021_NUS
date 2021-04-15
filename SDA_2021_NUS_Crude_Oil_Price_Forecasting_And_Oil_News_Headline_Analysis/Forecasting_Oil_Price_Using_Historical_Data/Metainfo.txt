@@ -1,0 +1,9 @@
+Name of Quantlet: 'Time_Series_Forecasting_on_Crude_Oil_Price'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Project_Group11 file'
+
+Keywords: 'NUS, FE5225,crude oil, price, LSTM'
+
+Author: 'Peng Wenhui, Gui Yilin'

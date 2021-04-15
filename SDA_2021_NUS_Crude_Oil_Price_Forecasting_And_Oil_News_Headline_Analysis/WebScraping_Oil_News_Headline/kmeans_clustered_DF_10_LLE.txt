@@ -1,0 +1,144 @@
+,label,data,x,y
+0,0,brazils petrobras fires manager probe share trades,-0.046006566261956816,-0.0934523677829526
+1,3,saudi wants opec extend oil cuts mayjune source,-0.04834980165518074,0.09820276719909786
+2,2,global reinsurers stare massive losses suez canal blockage fitch says,0.2516559884145906,0.006828689993693085
+3,0,islamic state claims deadly attack northern mozambique town,-0.04094760290935576,-0.0550088565631597
+4,3,exclusive shell cosan jv raizen taps banks megaipo brazil sources,-0.025228206548610153,0.0281563647955149
+5,1,oil rises traders expect opec hold output cuts,-0.06215734505705582,0.08932519391568694
+6,0,mexico says miners returning permits avoid taxes,-0.026817099141225622,0.02260672819302858
+7,6,india us agree revamp strategic energy partnership,-0.024432577649538757,0.0039099348147705985
+8,0,iraq signs heads agreement total four energy projects,-0.04903436994748708,-0.4857492563784723
+9,4,norway readies first offshore wind tenders spur oil industry transition,-0.02455353181776013,0.03551115421372284
+10,4,biden targets big offshore wind power expansion fight climate change,-0.02958788948323031,0.08436984944752655
+11,3,murkowski faces new republican challenger drawing trumps ire,-0.02556755396312836,0.011870886336879981
+12,4,biden explain funding trillion infrastructure plan wednesday white house,-0.07280127285990538,0.33832606088776196
+13,0,brazils petrobras fires manager probe share trades,-0.045873788427028855,-0.09300814433175468
+14,3,saudi wants opec extend oil cuts mayjune source,-0.04828248873489857,0.09785252169912899
+15,2,global reinsurers stare massive losses suez canal blockage fitch says,0.25165576656785044,0.006828385196723436
+16,0,islamic state claims deadly attack northern mozambique town,-0.040947602909355785,-0.05500885656315969
+17,3,exclusive shell cosan jv raizen taps banks megaipo brazil sources,-0.025226873239441353,0.028080764020185667
+18,1,oil rises traders expect opec hold output cuts,-0.062157379088176305,0.08932537098689279
+19,0,mexico says miners returning permits avoid taxes,-0.0268170991412256,0.022606728193028704
+20,6,india us agree revamp strategic energy partnership,-0.02443257764953872,0.0039099348147704875
+21,0,iraq signs heads agreement total four energy projects,-0.0488772459779228,-0.48358306817334495
+22,4,norway readies first offshore wind tenders spur oil industry transition,-0.024554656114069418,0.035593968432763017
+23,4,biden targets big offshore wind power expansion fight climate change,-0.02958977284978874,0.08461562206458083
+24,3,murkowski faces new republican challenger drawing trumps ire,-0.0255662683700792,0.011840559269121087
+25,4,biden explain funding trillion infrastructure plan wednesday white house,-0.07258525571868595,0.33682895588337136
+26,0,indonesia pertamina aims restarts refinery days blaze,-0.019446890819130345,-0.006109054175553235
+27,0,iran china sign year cooperation agreement,-0.03051991244170307,-0.23051964360342128
+28,0,column oil prices hit wave hedge fund profittaking,-0.02478285294491643,-0.009484563726686912
+29,6,explainer nigerias central bank wont ease grip naira,-0.024684876983276247,-0.0003973626567119916
+30,5,union urges shareholders vote marathon exec pay letter,-0.026010547120203207,0.007356954746991696
+31,1,russia supports opec oil output rollover may seeks small rise source,-0.044019568498633956,0.05051828226242871
+32,0,exxon chevron take slow walk path us shale recovery,-0.02360008684706498,0.003208047064488526
+33,4,shell link executive pay closely groups climate performance,-0.026737369731859445,0.008502531109828078
+34,0,coffee cookies electric cars thai fuel giant bets billions gas station future,-0.021088462440151192,-0.013066464527137752
+35,0,chinas sinopec raises capital expenditure,-0.01998629243808779,-0.0713406093503494
+36,5,us senate democrats aim undo trumpera shareholder voting rights rule,-0.025741965422808,0.006556506515500659
+37,5,republicans ask us supreme court let defend trump immigration rule,-0.025505271492186784,0.006707512018179432
+38,5,biden slams georgia voting law blatant attack us constitution,-0.02767202131813198,0.024722186311700475
+39,0,fire pertaminas balongon oil refinery impact operations ceo,-0.01755250323012667,-0.008207290358626756
+40,6,india calls saudi advice tapping stored oil undiplomatic,-0.029182513075687536,0.024907189870444504
+41,0,indonesias pertamina says five hurt massive oil refinery fire,-0.019236541598602403,-0.005641876256383967
+42,0,venezuelas maduro proposes paying coronavirus vaccines oil,-0.02606982077837448,0.00030256214705982236
+43,0,dozens killed besieged mozambique gas town,-0.029354267725337693,-0.03149700934590757
+44,0,sudan rebel group sign agreement separation religion state,-0.023478342388684556,-0.11164171022150567
+45,3,world bank reengages sudan following arrears clearance,-0.024041409812551717,-0.030045498519456686
+46,3,convoy fleeing civilians ambushed besieged mozambique town,-0.0302655711369269,-0.03323969215150094
+47,3,saudi arabia sees fields green major treeplanting drive,-0.026304645890591356,0.00969051977102332
+48,2,syria says rationing fuel shipments delayed suez canal blockage,0.25161435061492127,0.006771458144282681
+49,0,new york poised legalize marijuana lawmakers agree terms reports,-0.023135457414909796,-0.0045389579876655905
+50,0,georgia bans giving water voters line sweeping restrictions,-0.026249168921841582,0.014990947209602772
+51,4,yes us lawmakers fume big techs answers misinformation,-0.024548653834637845,-0.0014204001637624585
+52,0,mexican president pitches law could suspend oil permits,-0.029057795123213662,0.039570465088920655
+53,0,chevron eyes deal shell oil refinery pacific northwest sources,-0.01825658954644018,0.004533897703729175
+54,4,occidental petroleum sets lowcarbon business targets ceos bonus,-0.01609458806374648,-0.010677696395798382
+55,0,china iran expected sign year accord iranian state media says,-0.02702250696924726,-0.18306304848353647
+56,0,lebanon pm warns dangerous chemicals southern oil facility,-0.02679050168124084,0.010226498773512043
+57,3,yemens houthis warn stronger attacks drone strikes saudi arabia,-0.02633561142577013,0.0121945386160849
+58,2,oil jumps fears suez canal blockage may last weeks,0.25159982310450013,0.006751492776601136
+59,3,us condemns attacks saudi arabian oil facility yemens houthis state dept spokesman,-0.02621303048740013,0.012463240953425624
+60,0,us drillers add oil gas rigs second quarter row baker hughes,-0.01642624628447247,-0.014441699935841958
+61,1,repsol seeks eu funds develop biofuels green hydrogen hydropower,-0.025430620728377314,0.0075350830382386325
+62,5,biden raps gigantic abuse senate filibuster says harder block bills,-0.02852661155945383,0.02932219872675222
+63,5,us democratic lawmakers seek undo predatory banking rule,-0.02535818883415369,0.004896542437864155
+64,0,biden says passing gun control measures matter timing,-0.031683711971860734,0.0537554898862729
+65,2,ship stuck suez canal unleashes flood internet jokes,0.2515806829534155,0.006725193983644918
+66,2,suez canal blockage adds strain global supply chains,0.2516137695552266,0.006770661717398434
+67,0,factbox german steelmakers embark decarbonisation course,-0.024316245446329647,-0.006439478959496289
+68,1,russias transneft resumes oil flows via espo maintenance,-0.029837453778923103,0.01560895147262805
+69,0,gazprom chairman says nord stream gas pipeline finished year despite us pressure tass,-0.025748348614835184,0.002103140252397776
+70,3,yemens houthis say launched attacks saudi arabian oil military sites,-0.02594637056910974,0.012845870168070279
+71,3,saudi arabia use deterrents protect oil exports houthi attacks,-0.02655865287494267,0.013222778625630798
+72,3,uaes adnoc deepens supply cuts asia june fragile market sources,-0.02729989641721053,0.0030863698072404037
+73,4,oil industry pushes back biden administration launches review federal lands drilling,-0.023389558353341985,0.01345395730955389
+74,4,biden white house blocks virgin islands refinery expansion permit pollution concerns,-0.044307646642370004,0.14179481277504094
+75,0,biden pushes back criticism says migration increases seasonal,-0.030236408584431766,0.047803064447486616
+76,0,explainer migrant children arriving usmexico border,-0.026022981412363352,0.011691419345463059
+77,0,us transport chief endorsing banning gasvehicles,-0.02575204724548523,0.011166255500971273
+78,3,deal yet shared mexican oil find talks extend past deadline sources,-0.021998362452455785,0.0173057079592506
+79,0,largest us oil gas trade group backs carbon price,-0.025827470792549066,-0.030885327251358084
+80,2,suez canal could blocked weeks beached whale ship,0.25158594291448766,0.006732420760248777
+81,3,us eia expand biofuels feedstock data monthly report,-0.022868583905012927,-0.0037013573200987537
+82,3,breakingviews exxonchevron deal could help kill fossil fuels,-0.018015145818585463,-0.005369487320912052
+83,0,hedge fund lansdowne spinoff new energyfocused company,-0.02426140106692819,-0.0020940239479219553
+84,2,suspension suez canal traffic deepens global container crunch,0.25159556788248066,0.006745649407447152
+85,5,democrats use congressional tool reinstate methane rules axed trump,-0.025365485672520387,0.006476920602841676
+86,2,explainer giant container ship blocking suez canal,0.2515819701495425,0.0067269639478769305
+87,3,eex bourse becomes platform german fuel emissions trading,-0.024877683885542536,-0.02100361845666373
+88,0,factbox five things watch facebook google twitter ceos testify congress,-0.022561992730358412,-0.006761560690153451
+89,5,democrats us congress blast postal service revamp plan,-0.02592500959319874,0.011299547502301062
+90,5,us senate republicans try pressure biden border policy,-0.026810805941755066,0.01527940590414585
+91,2,factbox suez canal blockage mean oil shipments,0.2516056126718337,0.006759448585107082
+92,0,noble corp buy pacific drilling allstock deal,-0.016895124219171023,0.006827057229310081
+93,0,global oil markets pressure asia destocks china imports slowed,-0.024917762953140275,-0.011799630773386171
+94,0,petrochina expects carbon emissions peak around,-0.02529747715363483,-0.05909466790855649
+95,0,ineos energy sell norwegian oil gas business pgnig million,0.005794241283633267,-0.012206591040538945
+96,3,saudi aramco announces management appointments,-0.025546314372553607,-0.004519657346400031
+97,0,cnoocs profit plunges coronavirus hits fuel demand,-0.02318023828195771,-0.022540101522519188
+98,3,chinas cnooc start production lingshui h,-0.02395905228826495,-0.07256708586162196
+99,0,china says safeguard iran nuclear deal defend sinoiran relations,-0.02124375970659101,-0.12244119104417128
+100,3,shell hunts hydrogen opportunities australia net zero push,-0.02570689747985853,0.005768395137672097
+101,0,schumer urges three black nominees top us attorney jobs new york,-0.024732474858636208,0.002137911758937161
+102,5,senate confirms shalanda young spot omb,-0.02690891422921787,0.015585701602830793
+103,5,democratic us senators urge biden speed sanctions nord stream,-0.0262079188466427,0.007480585719471547
+104,0,china says safeguard iran oil deal defend sinoiran relations,-0.020724910503944125,-0.11852229280320153
+105,0,energy transition risks political strife oilproducing states report,-0.01727922581178521,-0.02776635274268905
+106,3,petrobras top managers quit clashing incoming ceos plans source,-0.02845622115072602,-0.03994516088809533
+107,0,petrobras signs contract sell rlam refinery mubadala capital,-0.009167877019268831,-0.03606607236031711
+108,0,oil producer ovintiv sell eagle ford assets million,0.0338581699171431,-0.009842868052915375
+109,2,stranded suez ships owner insurers face millions claims,0.2515802102875677,0.006724550275888101
+110,2,tugs work free giant container ship stranded suez canal,0.25158061408774446,0.006725103012827397
+111,4,fourteen us states sue biden administration oil gas leasing pause,-0.01943223719146586,-0.0026479592976147897
+112,2,ships carrying commodities stuck vessel grounding suez canal,0.25157995783369425,0.006724196890932523
+113,3,venezuelas pdvsa cuts light crude output gas pipeline burst,-0.029128719509862535,0.011880724800786311
+114,3,next phase criminal probe trump finances finding witnesses,-0.024331182751399012,0.004130104378940109
+115,0,chicago suburbs plan pay black residents reparations could national model,-0.025819367888326623,0.005767840588213285
+116,0,trump plans social media return platform adviser tells fox news,-0.02527445975662609,-0.0017799340078818629
+117,0,tauber oils vp oil marketing joins hartree partners,-0.026597248760836835,0.000672841663578404
+118,2,oil gains bbl suez canal ship grounding,0.2515805547393656,0.0067250172155581996
+119,3,armed groups attack mozambique town closest gas projects sources,-0.031753984766978265,-0.03831141126843257
+120,3,us oil activity jumps executives remain wary opec biden survey,-0.029356554502913558,0.019822772947496303
+121,6,africa play central role indias oil diversification says minister,-0.028984799991493868,0.05164011186273966
+122,0,european gas demand set grow equinor says,-0.022052708510970746,-0.012840483457172196
+123,3,europe tightens lockdowns opec keep oil taps tight sources,-0.03121990399873631,0.027975342041534276
+124,0,brazils oil industry battles deadliest covid wave yet,-0.024892497430817617,0.0019111538091763794
+125,1,us crude fuel stocks rise recent week eia,-0.024756041428111674,-0.0010044795353688959
+126,3,lebanons hezbollah parliamentary bloc urges cabinet formation,-0.026152340771802517,0.011153997996257908
+127,0,idaho lawmakers recess april amid covid outbreak,-0.024656654441231263,0.0013847131189014992
+128,6,us defense secretary urges india avoid buying russian equipment,-0.02618026469490608,0.02564252034470958
+129,6,austin says discussed india planned purchase russian air defence systems,-0.03206540284926822,0.057546636113358286
+130,3,saudi aramco sends request banks pipeline deal financing sources,-0.02154823714559858,0.002550809842959154
+131,6,africa play central role indias oil diversification says minister,-0.028986262551776436,0.05177283742567603
+132,5,congo republics sassou reelected vote,-0.0264052164020345,0.013364797117721454
+133,6,turkey says eu needs stop playing time take concrete steps better ties,-0.028478826790513233,0.03129350959577393
+134,0,hpclmittal first indian company buy guyanese crude liza data,-0.023031150279938607,0.004253723554343467
+135,0,column frothy oil market deflates virus fears return,-0.02566102802382377,-0.004195737464400605
+136,6,blinken emphasizes us opposition nord stream pipeline meeting german foreign minister,-0.025728335702708244,-0.0008862783608840308
+137,5,democratic senator urges biden admin allow diesel swap venezuela,-0.026558554558051575,0.011700392545579577
+138,0,iraq approves deal award schlumberger million deal drill oil wells cabinet statement,-0.007626677478625626,0.00297171745088746
+139,0,top us gas utility sets net zero emissions goal,-0.02372271960933257,-0.014227744003869081
+140,0,morgan stanleys pac resumed donations weeks capitol riot pause,-0.024937588337422094,0.005103963423129475
+141,0,white house says biden fine stumbling boarding air force one,-0.04537680429772421,0.14975504850727053
+142,0,us push aggressive messaging effort deter migrants,-0.026389896797644804,0.01793647757455811
