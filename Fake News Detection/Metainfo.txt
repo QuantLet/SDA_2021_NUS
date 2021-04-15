@@ -1,0 +1,13 @@
+Name of Quantlet: 'Fake News Detection'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Identifies news articles as fake or real based on its contents'
+
+Keywords: 'SVM, Decision-Tree, Random-Forest, TF-IDF, Naive-bayes, fake news, stopwords'
+
+Author: 'Sowmya Srikanth'
+
+Submitted:  'optional: e.g. 01. Jan 2019, John Doe'
+
+Datafile: 'Fake.csv, Real.csv, Validation1.xls, Validation2.xls'
