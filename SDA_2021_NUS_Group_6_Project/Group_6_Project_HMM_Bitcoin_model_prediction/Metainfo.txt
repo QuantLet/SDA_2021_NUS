@@ -1,0 +1,14 @@
+  
+Name of Quantlet: 'Group_6_Project_HMM_Bitcoin_model_prediction'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Bitcoin price prediction using the constructed model'
+
+Keywords: 'HMM, Bitcoin, prediction, maximum likelihood, optimization' 
+
+Author: 'Changjie Jin, Ng Zhi Wei Aaron, You Pengxin, Chio Qi Jun, Zhang Yuxi'
+
+Submitted:  '3 April 2021'
+
+Datafile: 'BTC-USD.xlsx'
