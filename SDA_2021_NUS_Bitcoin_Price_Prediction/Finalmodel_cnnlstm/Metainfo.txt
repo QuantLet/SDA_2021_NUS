@@ -1,0 +1,9 @@
+Name of Quantlet: 'Finalmodel_cnnlstm'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Project_Group9 file'
+
+Keywords: 'NUS, FE5225, bitcoin price, CNN, LSTM'
+
+Author: 'Group 9'
