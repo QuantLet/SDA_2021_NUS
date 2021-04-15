@@ -1,108 +1,72 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Mar 27 13:45:33 2021
+Created on Sat Mar 27 14:19:42 2021
 
 @author: 24978
 """
+
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-from scipy import stats
 import process as p
+import numpy as np
+import scipy.cluster.hierarchy as sch
 import os
 
-def get_cum_ret(data):
-    temp = data.apply(lambda x:np.log(x+1))
-    temp = temp.cumsum()
-    temp = temp.apply(lambda x:np.exp(x)-1)
-    return temp
+def getIVP(cov):
+    # Compute the inverse-variance portfolio
+    ivp = 1. / np.diag(cov)
+    # set inf to 0
+    ivp[np.isinf(ivp)] = 0
+    ivp /= np.nansum(ivp)
+    return ivp
 
-def get_max_drawdown(vec):
-    high = vec[0]
-    maxdrawdown = 0
-    for i in vec:
-        if i>high:
-            high = i
-        else:
-            maxdrawdown = max(maxdrawdown,high-i)
-    return maxdrawdown
+def getClusterVar(cov,cItems):
+    # Compute variance per cluster
+    cov_=cov.loc[cItems,cItems]
+    w_=getIVP(cov_).reshape(-1,1)
+    cVar=np.dot(np.dot(w_.T,cov_),w_)[0,0]
+    return cVar
 
-def plot_ret(data,benchmark):
-    ax = plt.subplot()
-    ax.plot(data.index,data['cum_ret'],label='portofolio')
-    ax.plot(benchmark.index,benchmark['cum_ret'],label='SP500')
-    tick_spacing = 100    
-    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
-    plt.legend()
-    plt.title('Cumulative Returns')
-    plt.xlabel('trading_date')
-    plt.ylabel('cumulative return')
-    plt.xticks(size='small',rotation=90,fontsize=8)
-    plt.grid()
-    plt.show()
+def getHRP(data,sortIx):
+    cov = data.cov()
+    #cov.replace({np.nan:0},inplace=True)
+    # Compute HRP alloc
+    w = pd.Series([1]*len(sortIx), index=sortIx)
+    cItems = [sortIx]  # initialize all items in one cluster
+    while len(cItems) > 0:
+        cItems = [i[j:k] for i in cItems for j, k in ((0, len(i) // 2), (len(i) // 2, len(i))) if len(i) > 1]  # bi-section
+        for i in range(0, len(cItems), 2):  # parse in pairs
+            cItems0 = cItems[i]  # cluster 1
+            cItems1 = cItems[i + 1]  # cluster 2
+            cVar0 = getClusterVar(cov, cItems0)
+            cVar1 = getClusterVar(cov, cItems1)
+            alpha = 1 - cVar0 / (cVar0 + cVar1)
+            w[cItems0] *= alpha  # weight 1
+            w[cItems1] *= 1 - alpha  # weight 2
+    return w.sort_index()
 
-def plot_IC(data):
-    ax = plt.subplot()
-    ax.bar(data.index,data['ic'])
-    tick_spacing = 100     
-    ax.xaxis.set_major_locator(ticker.MultipleLocator(tick_spacing))
-    plt.title('IC time series')
-    plt.xticks(size='small',rotation=90,fontsize=10)
-    plt.grid()
-    plt.show()
-    
+def cluster(data):
+    corr = data.corr()
+    dist = p.correlDist(corr)
+    dist_n = dist.fillna(0)
+    link = sch.linkage(dist_n, 'single')
+    sortIx = p.getQuasiDiag(link)
+    sortIx = corr.index[sortIx].tolist()
+    return sortIx
 
 if __name__ == '__main__':
-    # get data
-    factor = pd.read_pickle('weight1.pk')
-    factor = factor.T
-    factor.dropna(how='all',axis=0,inplace=True)
-    factor['info_date'] = factor.index
-    factor['trading_date'] = factor['info_date'].shift(-1)
-    factor.drop(factor.tail(1).index,inplace=True)
-    factor.set_index('trading_date',inplace=True)
-    factor.drop('info_date',axis=1,inplace=True)
     symbols = p.get_symbols_from_file(os.path.join('sectors', 'sp500_symbol.csv'))
     data = p.get_data(symbols)
     data.set_index('Date', inplace=True)
     data.sort_index(inplace=True)
     ret = data.pct_change()
     ret.drop(ret.head(1).index,inplace=True)
-    ret = ret.loc[factor.index[0]:]
-    sp500 = pd.read_excel('SP500.xlsx')
-    sp500['date'] = sp500['date'].astype('str')
-    sp500.set_index('date',inplace=True)
-    ret_sp500 = pd.DataFrame(sp500.pct_change().values,columns=['ret'],index=sp500.index)
-    ret_sp500 = ret_sp500.loc[ret.index[0]:ret.index[-1]]
-    # ic
-    ic = pd.DataFrame(np.nan,index=factor.index,columns=['ic'])
-    for i in ic.index:
-        x1 = factor.loc[i].replace({np.nan:0}).astype('float')
-        x2 = ret.loc[i].replace({np.nan:0}).astype('float')
-        ic['ic'][i] = stats.spearmanr(x1,x2)[0]
-    plot_IC(ic)
-    # cumret
-    weight_ret = factor * ret
-    portfolio_ret = pd.DataFrame(weight_ret.sum(axis=1),columns=['daily_ret'])
-    portfolio_ret['cum_ret'] = get_cum_ret(portfolio_ret['daily_ret'])
-    ret_sp500['cum_ret'] = get_cum_ret(ret_sp500['ret'])
-    # performance
-    ic_mean = ic.mean()[0]
-    ir = ic_mean / ic.std()[0]
-    daily_ret = np.nanmean(portfolio_ret['daily_ret'].values.astype('float'))
-    anl_ret = (1+daily_ret) ** 252 - 1
-    anl_vol = portfolio_ret['daily_ret'].values.astype('float').std() * np.sqrt(252)        
-    sharpe_ratio = anl_ret / anl_vol    
-    maxdrawdown = get_max_drawdown(portfolio_ret['cum_ret'])    
-    table = pd.DataFrame([[ic_mean],[ir],[anl_ret],[sharpe_ratio],[maxdrawdown]],index=['IC','IR','annual_return','sharpe','maxdrawdown'],columns=['performance'])
-    plot_ret(portfolio_ret,ret_sp500)
-    print(table)
-    
-    
-    
-    
-    
-    
-    
-
+    info_date = ret.index.tolist()
+    weight = pd.DataFrame(index=ret.columns.tolist())
+    for i in range(252,len(info_date)):
+        print(i)
+        start = info_date[i-252]
+        end = info_date[i]
+        temp = ret.loc[start:end,:].dropna(how='all',axis=1)
+        sortIx = cluster(temp)
+        weight[info_date[i]] = getHRP(temp,sortIx)
+    weight.to_pickle('weight1.pk')

@@ -40,7 +40,7 @@ def read_symbols(symfile):
     return syms
 
 def download_one(symbol):
-    if os.path.exists(FILEDIR + '{}.csv'.format(symbol)):
+    if os.path.exists(os.path.join(FILEDIR, '{}.csv'.format(symbol))):
         # logging.info('already downloaded, skip')
         return
 
@@ -49,7 +49,7 @@ def download_one(symbol):
         abc = downloader.downloader(symbol,start,end)
         abc = abc.decode('utf-8')
 
-        with open(FILEDIR + '{}.csv'.format(symbol), "w") as f:
+        with open(os.path.join(FILEDIR, '{}.csv'.format(symbol)), "w") as f:
             f.writelines(str(abc))
         logging.info('downloaded successfully')
     except:
