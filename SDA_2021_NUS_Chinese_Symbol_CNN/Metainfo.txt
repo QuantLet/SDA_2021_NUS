@@ -1,0 +1,9 @@
+Name of Quantlet: 'SDA_2021_NUS_Chinese_Symbol_CNN'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'MNIST Chinese Symbol with CNN'
+
+Keywords: 'NUS, FE5225, MNIST, Chinese Symbol, CNN'
+
+Author: 'Sun Rongsheng'
