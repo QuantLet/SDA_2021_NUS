@@ -1,0 +1,285 @@
+<<<<<<< HEAD
+stock_volatility vs sentiment
+independent :sentiment 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.192
+Model:                            GLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     63.64
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):           4.41e-14
+Time:                        23:34:19   Log-Likelihood:                 1860.4
+No. Observations:                 269   AIC:                            -3717.
+Df Residuals:                     267   BIC:                            -3710.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0049      0.001      8.319      0.000       0.004       0.006
+sentiment_MA5    -0.0086      0.001     -7.978      0.000      -0.011      -0.006
+==============================================================================
+Omnibus:                      176.491   Durbin-Watson:                   0.457
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1540.615
+Skew:                           2.606   Prob(JB):                         0.00
+Kurtosis:                      13.502   Cond. No.                         95.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_MAS 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.147
+Model:                            GLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     45.86
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):           8.05e-11
+Time:                        23:34:19   Log-Likelihood:                 1853.0
+No. Observations:                 269   AIC:                            -3702.
+Df Residuals:                     267   BIC:                            -3695.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.0038      0.001      7.157      0.000       0.003       0.005
+sentiment_yesterday    -0.0065      0.001     -6.772      0.000      -0.008      -0.005
+==============================================================================
+Omnibus:                      204.210   Durbin-Watson:                   0.537
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2486.208
+Skew:                           3.029   Prob(JB):                         0.00
+Kurtosis:                      16.606   Cond. No.                         82.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.024
+Model:                            GLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     6.527
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):             0.0112
+Time:                        23:34:19   Log-Likelihood:                 1834.9
+No. Observations:                 269   AIC:                            -3666.
+Df Residuals:                     267   BIC:                            -3659.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       0.0019      0.001      2.858      0.005       0.001       0.003
+sentiment_vol_yesterday    -0.0105      0.004     -2.555      0.011      -0.019      -0.002
+==============================================================================
+Omnibus:                      237.805   Durbin-Watson:                   0.430
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3896.116
+Skew:                           3.648   Prob(JB):                         0.00
+Kurtosis:                      20.157   Cond. No.                         262.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_vol_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.005
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.287
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.258
+Time:                        23:34:19   Log-Likelihood:                 1832.3
+No. Observations:                 269   AIC:                            -3661.
+Df Residuals:                     267   BIC:                            -3653.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0002   1.63e-05     12.541      0.000       0.000       0.000
+Stock_return    -0.0013      0.001     -1.134      0.258      -0.003       0.001
+==============================================================================
+Omnibus:                      242.180   Durbin-Watson:                   0.395
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4153.266
+Skew:                           3.730   Prob(JB):                         0.00
+Kurtosis:                      20.746   Cond. No.                         68.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_var 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       1.000
+Model:                            GLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 1.402e+33
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):               0.00
+Time:                        23:34:19   Log-Likelihood:                 11346.
+No. Observations:                 269   AIC:                        -2.269e+04
+Df Residuals:                     267   BIC:                        -2.268e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             3.829e-21   8.97e-21      0.427      0.670   -1.38e-20    2.15e-20
+stock_volatility     1.0000   2.67e-17   3.74e+16      0.000       1.000       1.000
+==============================================================================
+Omnibus:                      234.350   Durbin-Watson:                   0.271
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3712.381
+Skew:                           3.583   Prob(JB):                         0.00
+Kurtosis:                      19.729   Cond. No.                     3.75e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.75e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+=======
+stock_volatility vs sentiment
+independent :sentiment 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.192
+Model:                            GLS   Adj. R-squared:                  0.189
+Method:                 Least Squares   F-statistic:                     63.64
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):           4.41e-14
+Time:                        23:34:19   Log-Likelihood:                 1860.4
+No. Observations:                 269   AIC:                            -3717.
+Df Residuals:                     267   BIC:                            -3710.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0049      0.001      8.319      0.000       0.004       0.006
+sentiment_MA5    -0.0086      0.001     -7.978      0.000      -0.011      -0.006
+==============================================================================
+Omnibus:                      176.491   Durbin-Watson:                   0.457
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1540.615
+Skew:                           2.606   Prob(JB):                         0.00
+Kurtosis:                      13.502   Cond. No.                         95.5
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_MAS 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.147
+Model:                            GLS   Adj. R-squared:                  0.143
+Method:                 Least Squares   F-statistic:                     45.86
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):           8.05e-11
+Time:                        23:34:19   Log-Likelihood:                 1853.0
+No. Observations:                 269   AIC:                            -3702.
+Df Residuals:                     267   BIC:                            -3695.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.0038      0.001      7.157      0.000       0.003       0.005
+sentiment_yesterday    -0.0065      0.001     -6.772      0.000      -0.008      -0.005
+==============================================================================
+Omnibus:                      204.210   Durbin-Watson:                   0.537
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2486.208
+Skew:                           3.029   Prob(JB):                         0.00
+Kurtosis:                      16.606   Cond. No.                         82.3
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.024
+Model:                            GLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     6.527
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):             0.0112
+Time:                        23:34:19   Log-Likelihood:                 1834.9
+No. Observations:                 269   AIC:                            -3666.
+Df Residuals:                     267   BIC:                            -3659.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+const                       0.0019      0.001      2.858      0.005       0.001       0.003
+sentiment_vol_yesterday    -0.0105      0.004     -2.555      0.011      -0.019      -0.002
+==============================================================================
+Omnibus:                      237.805   Durbin-Watson:                   0.430
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3896.116
+Skew:                           3.648   Prob(JB):                         0.00
+Kurtosis:                      20.157   Cond. No.                         262.
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_vol_yesterday 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       0.005
+Model:                            GLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     1.287
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):              0.258
+Time:                        23:34:19   Log-Likelihood:                 1832.3
+No. Observations:                 269   AIC:                            -3661.
+Df Residuals:                     267   BIC:                            -3653.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+const            0.0002   1.63e-05     12.541      0.000       0.000       0.000
+Stock_return    -0.0013      0.001     -1.134      0.258      -0.003       0.001
+==============================================================================
+Omnibus:                      242.180   Durbin-Watson:                   0.395
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4153.266
+Skew:                           3.730   Prob(JB):                         0.00
+Kurtosis:                      20.746   Cond. No.                         68.6
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+robust test
+independent :sentiment_var 
+                            GLS Regression Results                            
+==============================================================================
+Dep. Variable:       stock_volatility   R-squared:                       1.000
+Model:                            GLS   Adj. R-squared:                  1.000
+Method:                 Least Squares   F-statistic:                 1.402e+33
+Date:                Fri, 02 Apr 2021   Prob (F-statistic):               0.00
+Time:                        23:34:19   Log-Likelihood:                 11346.
+No. Observations:                 269   AIC:                        -2.269e+04
+Df Residuals:                     267   BIC:                        -2.268e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const             3.829e-21   8.97e-21      0.427      0.670   -1.38e-20    2.15e-20
+stock_volatility     1.0000   2.67e-17   3.74e+16      0.000       1.000       1.000
+==============================================================================
+Omnibus:                      234.350   Durbin-Watson:                   0.271
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3712.381
+Skew:                           3.583   Prob(JB):                         0.00
+Kurtosis:                      19.729   Cond. No.                     3.75e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.75e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+>>>>>>> 96f81bd45206ad2ae58a10cfbffe7446125640a2

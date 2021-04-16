@@ -1,0 +1,15 @@
+Name of Quantlet: 'Cryptopunks_collecting_and_clustering'
+
+Published in: 'SDA_2021_NUS/Cryptopunks_collecting_and_clustering'
+
+Description: 'Collecting all the cryptopunks by webscraping and cluster them'
+
+Keywords: 'cryptopunks, cluster'
+
+Author: 'Chen Zebo'
+
+Submitted:  'Apr 2021, Chen Zebo'
+
+Datafile: 'cryptopunks folder'
+
+

@@ -1,0 +1,13 @@
+
+Name of Quantlet: 'SDA_2021_NUS_Credit_Card_Default_Prediction' 
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Using lightgbm and XGboost to do Credit Card Default Prediction & Analysis'
+
+Keywords: 'lightgbm, XGBoost, feature engineering, model encoder, AUC, credit card default, feature selection' 
+
+Author: 'Cao Yi, Chen Chi, Ma Haochun, Xu Xiaoxuan, Ji Xiongzhang'
+
+Submitted:  '03.April 2021'
+

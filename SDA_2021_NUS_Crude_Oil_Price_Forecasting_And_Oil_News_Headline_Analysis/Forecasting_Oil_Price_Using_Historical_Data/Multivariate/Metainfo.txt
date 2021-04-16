@@ -1,0 +1,9 @@
+Name of Quantlet: 'Multivariate_Oil_Price_Prediction'
+
+Published in: 'SDA_2021_NUS'
+
+Description: 'Project_Group11 file'
+
+Keywords: 'NUS, FE5225,crude oil, price, LSTM, Multivariate'
+
+Author: 'Gui Yilin'

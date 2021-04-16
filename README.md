@@ -8,6 +8,7 @@ The repository contains the codes of final projects of the 2021 FE5225 class @ N
 * This metainfo files are needed to create the README in the LvB style automatically. Please, do not try to create the README by yourself - it will be done automatically.
 * The main idea of these Quantlets is that anyone can reproduce your research.
 * Please make sure that the main script of your Quantlet has the same name as the one you specified in the Metainfo.txt file. (E.g. if your Quantlet Name is bitcoinVolatilityCheck - the main script will have a name bitcoinVolatilityCheck.py (.ipynb or .r etc. - depending on what language you use))
+* **PLEASE DO NOT DELETE OR REWRITE THIS README, .GITIGNORE OR THE EXAMPLE METAINFO FILE  IN THE ROOT FOLDER**
 
 
 

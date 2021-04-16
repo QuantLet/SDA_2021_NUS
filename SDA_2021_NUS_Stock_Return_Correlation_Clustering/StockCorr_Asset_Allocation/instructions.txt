@@ -5,7 +5,7 @@ and unzip the file, put the data files under 'downloaded_data/data/' folder
 pip install -r requirements.txt
 
 3. run python code to get weights (or you can skip since the file is generated for you)
-python get_weights.py
+python StockCorr_Asset_Allocation.py
 
 4. run python code to run back test and check the asset allocation strategy
-python StockCorr_Asset_Allocation.py
+python backtest.py

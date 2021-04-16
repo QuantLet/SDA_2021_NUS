@@ -1,0 +1,13 @@
+
+Name of Quantlet: 'Experiment_Sampling' 
+
+Published in: 'SDA_2021_NUS_Credit_Card_Default_Prediction'
+
+Description: 'Experiment_Sampling'
+
+Keywords: 'lightgbm, XGBoost, feature engineering, model encoder, AUC, credit card default, feature selection' 
+
+Author: 'Cao Yi, Chen Chi, Ma Haochun, Xu Xiaoxuan, Ji Xiongzhang'
+
+Submitted:  '03.April 2021'
+
