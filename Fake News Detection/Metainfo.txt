@@ -8,6 +8,4 @@ Keywords: 'SVM, Decision-Tree, Random-Forest, TF-IDF, Naive-bayes, fake news, st
 
 Author: 'Sowmya Srikanth'
 
-Submitted:  'optional: e.g. 01. Jan 2019, John Doe'
-
 Datafile: 'Fake.csv, Real.csv, Validation1.xls, Validation2.xls'
